@@ -1,0 +1,14 @@
+﻿*.cred
+*.pfx
+svc.pass
+svc.user
+Data/
+Queue/
+Hash/
+Output/
+Logs/
+*-report-*.csv
+access-scan-*.csv
+computers*.txt
+*.bak-*
+Thumbs.db
