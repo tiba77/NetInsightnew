@@ -1,0 +1,26 @@
+﻿{
+    "General":  {
+                    "Project":  "NetInsight",
+                    "Version":  "2.1.0"
+                },
+    "Server":  {
+                   "RootPath":  "\\\\192.168.1.10\\InventoryShare"
+               },
+    "Folders":  {
+                    "Json":  "Data\\JSON",
+                    "Logs":  "Agent\\Logs",
+                    "Queue":  "Agent\\Queue",
+                    "Cache":  "Agent\\Cache"
+                },
+    "Agent":  {
+                  "IntervalMinutes":  360,
+                  "Retry":  3
+              },
+    "Local":  {
+                  "LogFolder":  "Logs",
+                  "OutputFolder":  "Output",
+                  "CacheFolder":  "Hash",
+                  "QueueFolder":  "Queue"
+              }
+}
+
